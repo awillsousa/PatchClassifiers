@@ -25,6 +25,11 @@ patchwiser/plots/
 *.pdf
 *.png
 *.log
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
 nohup.out
 logs/*
 execs/*
