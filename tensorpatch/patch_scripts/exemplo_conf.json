@@ -1,0 +1,45 @@
+{
+    "dir_imgs": "",
+    "dir_destino" : "",
+    "arquivo_base" : "",
+    "arquivo_log" : "",
+    "descritores" : {"1": "LBP", "2": "PFTAS"},
+    "tipo_extracao" : {
+                       "descricao" : "janela_deslizante", 
+                       "parametros" : {
+                                       "tamanho" : "(64,64)", 
+                                       "perc_sobrepoe" : "50"
+                                      } 
+                      },
+    "tipo_extracao" : {
+                       "descricao" : "ppi", 
+                       "parametros" : {"qtde" : "70"} 
+                      },
+    "tipo_extracao" : {
+                        "descricao" : "fixo", 
+                        "parametros" : {
+                                        "tamanho" : "(64,64)", 
+                                        "borda_central" : "True"
+                                        } 
+                      }
+    "tipo_extracao" : {
+                        "descricao" : "intervalo", 
+                        "parametros" : {
+                                        "tamanho_ini" : "(16,16)", 
+                                        "tamanho_fim" : "(64,64)", 
+                                        "incremento" : "(16,16)",
+                                        "borda_central" : "True"
+                                       } 
+                      },
+    "tipo_extracao" : {
+                        "descricao" : "quadtree", 
+                        "parametros" : {"altura" : "64"} 
+                      },
+    "tipo_extracao" : {
+                        "descricao" : "randomico", 
+                        "parametros" : {
+                                        "qtde" : "64", 
+                                        "perc_sobrepoe" : "50"
+                                       } 
+                      }
+}
