@@ -3,9 +3,6 @@
 
 # ignore data set
 data/*/*
-!/data/usps/download_usps.sh
-!/data/reuters/get_data.sh
-!/data/stl/get_data.sh
 
 # ignore the results of running code 'results/'
 results/*/*
@@ -24,7 +21,6 @@ milpatch/plots/
 patchwiser/bases/
 patchwiser/logs/
 patchwiser/plots/
-<<<<<<< HEAD
 # Ignora arquivos PDF, arquivos de texturas e arquivos de log do programa
 *.pdf
 *.png
@@ -173,7 +169,6 @@ ENV/
 .doc
 .png
 .svm
->>>>>>> b874209bd757b7515a35ac0b94417b0f07957911
 patchwiser/ptxwiser/models/
 patchwiser/ptxwiser/logs/
 patchwiser/ptxwiser/plots/
